@@ -42,9 +42,7 @@ formEl.addEventListener('submit', (event) => {
         });
     });
 
-    delayInput.value = '';
-    stateInput.checked = false;
- 
+    formEl.reset();
 })
 
 
